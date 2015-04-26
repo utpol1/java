@@ -1,30 +1,30 @@
 public class While
 {
-	public static void main (String [] args)
+	public static void main(String[] args)
 	{
 		System.out.print("\n" + "While Loop:" + "\n");
-		While.alpha();
-
-                System.out.print("\n" + "Do While Loop:" + "\n");
-                While.bravo();
+		While.loop();
+		
+		System.out.print("\n" + "Do While Loop:" + "\n");
+		While.spin();
 	}
-	public static void alpha ()
+	public static void loop()
 	{
-		int bravo = 1;
-                while(bravo < 10)
-                {
-                        System.out.print("num = " + bravo + "\n");
-                        bravo++;
-                }
+		int count = 1;
+		while(count < 10)
+		{
+			System.out.print("number = " + count + "\n");
+			count++;
+		}
 	}
-        public static void bravo ()
-        {
-                int charlie = 11;
-                do
-                {
-			System.out.print("num = " + charlie + "\n");
-			charlie++;
-                } while(charlie < 20);
+	public static void spin()
+	{
+		int count = 11;
+		do
+		{
+			System.out.print("number = " + count + "\n");
+			count++;
+		} while(count < 20);
 		System.out.print("\n");
-        }
+	}
 }

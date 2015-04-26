@@ -1,16 +1,16 @@
 public class For
 {
-	public static void main (String [] args)
+	public static void main(String[] args)
 	{
 		System.out.print("\n" + "For Loop:" + "\n");
-		For.alpha();
+		For.loop();
 	}
-	public static void alpha ()
+	public static void loop()
 	{
-                for(int bravo=0; bravo<20; bravo++)
-                {
-                        System.out.print("num = " + bravo + "\n");
-                }
+		for(int i=0; i<20; i++)
+		{
+		        System.out.print("number = " + i + "\n");
+		}
 		System.out.print("\n");
 	}
 }
