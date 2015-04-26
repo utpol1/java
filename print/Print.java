@@ -1,6 +1,6 @@
 public class Print 
 {
-	public static void main (String[] args)  
+	public static void main (String [] args)  
 	{
 		System.out.print("\n" +  "public static void main" + "\n");
 		new Print().alpha();

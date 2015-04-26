@@ -1,6 +1,6 @@
 public class For
 {
-	public static void main (String args[])
+	public static void main (String [] args)
 	{
 		System.out.print("\n" + "For Loop:" + "\n");
 		For.alpha();

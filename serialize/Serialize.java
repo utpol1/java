@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Serialize
 {
-	public static void main(String args[])
+	public static void main(String [] args)
 	{
                 System.out.print("\n" + "Serialize a String:" + "\n");
                 Serialize.serialize();

@@ -1,6 +1,6 @@
 public class While
 {
-	public static void main (String args[])
+	public static void main (String [] args)
 	{
 		System.out.print("\n" + "While Loop:" + "\n");
 		While.alpha();

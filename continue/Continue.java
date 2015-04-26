@@ -1,6 +1,6 @@
 public class Continue
 {
-	public static void main (String args[])
+	public static void main (String [] args)
 	{
 		System.out.print("\n" + "Use Continue to skip over an item: (15)" + "\n");
 		Continue.alpha();
