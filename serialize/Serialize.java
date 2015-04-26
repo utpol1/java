@@ -12,7 +12,6 @@ public class Serialize
 	}
 	public static void serialize ()
 	{
-                String golf = "";
                 String [] alpha = {"bravo","charlie","delta"};
                 try
                 {
@@ -21,7 +20,7 @@ public class Serialize
                         foxtrot.writeObject(alpha);
                         foxtrot.flush();
 			System.out.print(echo.toString() + "\n\n");
-                }
+	        }
                 catch (Exception e)
                 {
                         System.out.print(e + "\n");
