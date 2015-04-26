@@ -6,18 +6,18 @@ public class Continue
 		Continue.alpha();
 
                 System.out.print("\n" + "Use Continue to count unique items: (www.jeremiahfaria.com)" + "\n");
-                Continue.beta();
+                Continue.bravo();
 	}
      	public static void alpha ()
         {
-                int [] beta = {5,10,15,20,25,30};
-                for(int delta : beta)
+                int [] bravo = {5,10,15,20,25,30};
+                for(int delta : bravo)
                 {
 			if (delta == 15) continue;
                         System.out.print("num = " + delta + "\n");
                 }
         }
-        public static void beta ()
+        public static void bravo ()
         {
 		String charlie = "www.jeremiahfaria.com";
 		int delta = charlie.length();

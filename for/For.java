@@ -7,9 +7,10 @@ public class For
 	}
 	public static void alpha ()
 	{
-                for(int x=0; x<20; x++)
+                for(int bravo=0; bravo<20; bravo++)
                 {
-                        System.out.print("x = " + x + "\n");
+                        System.out.print("num = " + bravo + "\n");
                 }
+		System.out.print("\n");
 	}
 }

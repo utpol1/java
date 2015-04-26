@@ -6,18 +6,18 @@ public class While
 		While.alpha();
 
                 System.out.print("\n" + "Do While Loop:" + "\n");
-                While.beta();
+                While.bravo();
 	}
 	public static void alpha ()
 	{
-		int beta = 1;
-                while(beta < 10)
+		int bravo = 1;
+                while(bravo < 10)
                 {
-                        System.out.print("num = " + beta + "\n");
-                        beta++;
+                        System.out.print("num = " + bravo + "\n");
+                        bravo++;
                 }
 	}
-        public static void beta ()
+        public static void bravo ()
         {
                 int charlie = 11;
                 do
@@ -25,5 +25,6 @@ public class While
 			System.out.print("num = " + charlie + "\n");
 			charlie++;
                 } while(charlie < 20);
+		System.out.print("\n");
         }
 }

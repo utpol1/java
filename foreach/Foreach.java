@@ -6,22 +6,23 @@ public class Foreach
 		Foreach.alpha();
 
                 System.out.print("\n" + "Foreach Loop using Int:" + "\n");
-                Foreach.beta();
+                Foreach.bravo();
 	}
 	public static void alpha ()
 	{
-		String [] beta = {"charlie","delta","echo","foxtrot"};
-		for(String golf : beta)
+		String [] bravo = {"charlie","delta","echo","foxtrot"};
+		for(String golf : bravo)
 		{
 			System.out.print("obj = " + golf + "\n");
 		}
 	}
-        public static void beta ()
+        public static void bravo ()
         {
                 int [] charlie = {5,10,15,20,25,30};
                 for(int delta : charlie)
                 {
                         System.out.print("num = " + delta + "\n");
                 }
+		System.out.print("\n");
         }
 }

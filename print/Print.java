@@ -4,14 +4,14 @@ public class Print
 	{
 		System.out.print("\n" +  "public static void main" + "\n");
 		new Print().alpha();
-		Print.beta();
+		Print.bravo();
 	}
         public void alpha ()
         {
                 System.out.println("\n" +  "public void alpha");
         }
-        public static void beta ()
+        public static void bravo ()
         {
-                System.out.println("\n" +  "public static void beta" + "\n");
+                System.out.println("\n" +  "public static void bravo" + "\n");
         }
 }
