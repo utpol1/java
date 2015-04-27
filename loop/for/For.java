@@ -4,6 +4,8 @@ public class For
 	{
 		System.out.print("\n" + "For Loop:" + "\n");
 		For.loop();
+
+		System.out.print("\n");
 	}
 	public static void loop()
 	{
@@ -11,6 +13,5 @@ public class For
 		{
 		        System.out.print("number = " + i + "\n");
 		}
-		System.out.print("\n");
 	}
 }

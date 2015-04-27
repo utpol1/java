@@ -7,6 +7,8 @@ public class While
 		
 		System.out.print("\n" + "Do While Loop:" + "\n");
 		While.spin();
+
+		System.out.print("\n");
 	}
 	public static void loop()
 	{
@@ -25,6 +27,5 @@ public class While
 			System.out.print("number = " + count + "\n");
 			count++;
 		} while(count < 20);
-		System.out.print("\n");
 	}
 }
