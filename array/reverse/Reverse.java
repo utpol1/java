@@ -13,10 +13,9 @@ public class Reverse
         {
                 String[] items = {"alpha","bravo","charlie","delta","echo","foxtrot"};
 
-		//int count = items.length(); 
-                for(String item : items)
-                {
-                        System.out.print("item = " + item + "\n");
-                }
+		for (int i=items.length-1; i>=0; i--)
+		{
+			System.out.print("item = " + items[i] + "\n");
+		}
         }
 }
