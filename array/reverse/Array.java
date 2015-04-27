@@ -5,14 +5,15 @@ public class Array
 	public static void main(String[] args)
 	{
                 System.out.print("\n" + "Reverse Array:" + "\n");
-                Array.reverse();
+                
+		String[] x = {"alpha","bravo","charlie","delta","echo","foxtrot"};
+
+		Array.reverse(x);
 
 		System.out.print("\n");
 	}
-        public static void reverse()
+        public static void reverse(String[] items)
         {
-                String[] items = {"alpha","bravo","charlie","delta","echo","foxtrot"};
-
 		for(int i=items.length-1; i>=0; i--)
 		{
 			System.out.print("item = " + items[i] + "\n");

@@ -5,13 +5,15 @@ public class Array
 	public static void main(String[] args)
 	{
                 System.out.print("\n" + "Remove first item from Array:" + "\n");
-                Array.shift();
+                
+		String[] x = {"alpha","bravo","charlie","delta","echo","foxtrot"};
+
+		Array.shift(x);
 
 		System.out.print("\n");
 	}
-        public static void shift()
+        public static void shift(String[] items)
         {
-                String[] items = {"alpha","bravo","charlie","delta","echo","foxtrot"};	
 		String[] list = Arrays.copyOfRange(items, 1, items.length);
 
 		for(String item : list)

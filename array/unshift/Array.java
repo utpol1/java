@@ -5,16 +5,18 @@ public class Array
 	public static void main(String[] args)
 	{
                 System.out.print("\n" + "Add item to beginning of Array:" + "\n");
-                Array.unshift();
+
+                String[] x = {"alpha","bravo","charlie","delta","echo","foxtrot"};
+                String y = "Xray";
+
+                Array.unshift(x,y);
 
 		System.out.print("\n");
 	}
-        public static void unshift()
+        public static void unshift(String[] items,String element)
         {
-                String[] items = {"alpha","bravo","charlie","delta","echo","foxtrot"};
-	
 		List<String> temp = new ArrayList<String>(Arrays.asList(items));
-		temp.add(0,"Xray");
+		temp.add(0,element);
 		items = temp.toArray(new String[temp.size()]);
 
 		for(String item : items)

@@ -5,14 +5,15 @@ public class Array
 	public static void main(String[] args)
 	{
                 System.out.print("\n" + "Sort Array:" + "\n");
-                Array.sort();
+ 
+		String[] x = {"bravo","delta","alpha","echo","foxtrot","charlie"};
+
+		Array.sort(x);
 
 		System.out.print("\n");
 	}
-        public static void sort()
+        public static void sort(String[] items)
         {
-                String[] items = {"bravo","delta","alpha","echo","foxtrot","charlie"};
-	
 		Arrays.sort(items);	
 		for(String item : items)
                 {

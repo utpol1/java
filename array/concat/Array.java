@@ -5,19 +5,20 @@ public class Array
 	public static void main(String[] args)
 	{
 		System.out.print("\n" + "Concatenate two Array's:" + "\n");
-		Array.concat();
+
+                String[] x = {"alpha","bravo","charlie","delta","echo","foxtrot"};
+                String[] y = {"golf","hotel"};
+
+		Array.concat(x,y);
 		
 		System.out.print("\n");
 	}
-	public static void concat()
+	public static void concat(String[] a,String[] b)
 	{
-		String[] a = {"alpha","bravo","charlie","delta","echo","foxtrot"};
-		String[] b = {"golf","hotel"};
-
 		List<String> array = new ArrayList<String>(Arrays.asList(a));
 		array.addAll(Arrays.asList(b));
 		
-		Object[] concatenated = array.toArray();
-		System.out.print(Arrays.toString(concatenated) + "\n");
+		Object[] c = array.toArray();
+		System.out.print(Arrays.toString(c) + "\n");
 	}
 }
