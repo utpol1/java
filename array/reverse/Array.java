@@ -1,15 +1,15 @@
 import java.util.*;
 
-public class Reverse
+public class Array
 {
 	public static void main(String[] args)
 	{
                 System.out.print("\n" + "Reverse Array:" + "\n");
-                Reverse.array();
+                Array.reverse();
 
 		System.out.print("\n");
 	}
-        public static void array()
+        public static void reverse()
         {
                 String[] items = {"alpha","bravo","charlie","delta","echo","foxtrot"};
 

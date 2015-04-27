@@ -1,15 +1,15 @@
 import java.util.*;
 
-public class Sort
+public class Array
 {
 	public static void main(String[] args)
 	{
                 System.out.print("\n" + "Sort Array:" + "\n");
-                Sort.array();
+                Array.sort();
 
 		System.out.print("\n");
 	}
-        public static void array()
+        public static void sort()
         {
                 String[] items = {"bravo","delta","alpha","echo","foxtrot","charlie"};
 	

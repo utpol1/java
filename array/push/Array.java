@@ -1,15 +1,15 @@
 import java.util.*;
 
-public class Push
+public class Array
 {
 	public static void main(String[] args)
 	{
                 System.out.print("\n" + "Add item to end of Array:" + "\n");
-                Push.array();
+                Array.push();
 
 		System.out.print("\n");
 	}
-        public static void array()
+        public static void push()
         {
                 String[] items = {"alpha","bravo","charlie","delta","echo","foxtrot"};
 	

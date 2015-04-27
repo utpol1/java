@@ -1,15 +1,15 @@
 import java.util.*;
 
-public class Concatenate
+public class Array
 {
 	public static void main(String[] args)
 	{
 		System.out.print("\n" + "Concatenate two Array's:" + "\n");
-		Concatenate.array();
+		Array.concat();
 		
 		System.out.print("\n");
 	}
-	public static void array()
+	public static void concat()
 	{
 		String[] a = {"alpha","bravo","charlie","delta","echo","foxtrot"};
 		String[] b = {"golf","hotel"};

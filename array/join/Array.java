@@ -1,15 +1,15 @@
 import java.util.*;
 
-public class Join
+public class Array
 {
 	public static void main(String[] args)
 	{
 		System.out.print("\n" + "Join Array:" + "\n");
-		Join.array();
+		Array.join();
 
 		System.out.print("\n");
 	}
-	public static void array()
+	public static void join()
 	{
 		StringBuffer buffer = new StringBuffer();
 

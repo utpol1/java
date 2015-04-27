@@ -1,15 +1,15 @@
 import java.util.*;
 
-public class Unshift
+public class Array
 {
 	public static void main(String[] args)
 	{
                 System.out.print("\n" + "Add item to beginning of Array:" + "\n");
-                Unshift.array();
+                Array.unshift();
 
 		System.out.print("\n");
 	}
-        public static void array()
+        public static void unshift()
         {
                 String[] items = {"alpha","bravo","charlie","delta","echo","foxtrot"};
 	
